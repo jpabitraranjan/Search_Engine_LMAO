@@ -1,6 +1,9 @@
 from itertools import permutations
 from re import search
 
+#code readability ki maine maa chodi hai kyuki mai nahi chahta koi chutiya jo banda ye code samajh bhi nhi sakta wo ise copy kar le
+#copy karne wale ki maa ki shoot🤡
+
 s = (input("Enter Your Search:")).lower()
 L = s.split()
 p = list(permutations(L, 2))
